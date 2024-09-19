@@ -1,0 +1,33 @@
+/* src/components/SideBar.css */
+
+.menu-item {
+    position: relative;
+    padding-bottom: 10px; /* Espacio debajo de "Artículo" para el conector */
+  }
+  
+  .menu-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Línea horizontal completa debajo de "Artículo" */
+    height: 2px;
+    background-color: #ffffff;
+  }
+  
+  .submenu {
+    position: relative;
+    padding-left: 20px; /* Sangría para "Importar Lista Iveco" */
+    margin-top: 10px; /* Espacio hacia abajo para el conector */
+  }
+  
+  .submenu::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Ajusta para conectar justo bajo "Artículo" */
+    left: 0;
+    width: 20px; /* Ancho del conector horizontal */
+    height: 2px;
+    background-color: #ffffff;
+  }
+  

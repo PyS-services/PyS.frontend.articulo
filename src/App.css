@@ -1,0 +1,24 @@
+/* src/App.css */
+body {
+    background-color: #121212; /* Fondo general oscuro */
+    color: #ffffff; /* Texto blanco para contraste */
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar, .sidebar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand, .nav-link {
+    font-weight: bold;
+    color: #ffffff !important; /* Asegura que el texto de los enlaces sea blanco */
+  }
+  
+  .flex-grow-1 {
+    background-color: #1c1c1c; /* Fondo oscuro para el contenido principal */
+    color: #ffffff; /* Texto blanco para el contenido principal */
+  }
+  
