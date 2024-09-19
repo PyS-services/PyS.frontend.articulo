@@ -1,0 +1,42 @@
+/* src/styles.css */
+
+/* Colores suaves y agradables */
+body {
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Texto oscuro pero no completamente negro */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #5bc0de; /* Azul claro */
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .sidebar {
+    background-color: #f4f6f9; /* Fondo claro para la SideBar */
+  }
+  
+  .sidebar .nav-link {
+    color: #333 !important; /* Texto oscuro en la SideBar */
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #e3e3e3 !important; /* Resalta la opción seleccionada con un gris claro */
+  }
+  
+  button.btn-primary {
+    background-color: #5cb85c; /* Verde motivador */
+    border: none;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #4cae4c; /* Verde un poco más oscuro al hacer hover */
+  }
+  
